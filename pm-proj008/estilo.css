@@ -113,6 +113,76 @@ section#principal .modulo .container {
 
 section#principal .modulo .container .canvas {
     background-color: #fff;
-    height: 300px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
 }
 
+form ul {
+    padding: 0; margin: 0px;/*zerar*/
+    margin-bottom: 30px;
+}
+
+form li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    font-size: 20px;
+    color: #292929;
+    padding: 0;
+    margin: 0;/*zerar p/tirar o padrão*/
+    margin-bottom: 20px; 
+}
+
+form input, form select {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+form small {
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+
+-webkit-input-placeholder {/*:: add se necessário*/
+    color: #c5c5c5;
+}
+
+form li.ok {
+    background-image: url(imagens/ok.png); 
+    background-repeat: no-repeat;
+    background-position: top 11px right;/*top 11px para descer 11px*/
+    width: 430px;
+}
+
+form button
+{
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.confirmacoes li {
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+}
+
+.confirmacoes input {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
