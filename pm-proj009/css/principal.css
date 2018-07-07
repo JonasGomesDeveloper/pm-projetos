@@ -1,0 +1,33 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../Imagens/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checkout {
+    width: 686px;
+    height: 556px;
+    background-color: #fff;
+}
+
+.checkout header {
+    height: 40px;
+}
+
+.checkout main {
+    display: flex;
+}
+
+.checkout main .cartao {
+    height: 100px;
+    width: 55%;
+}
+
+.checkout main .resumos {
+    height: 100px;
+    width: 45%;
+}
