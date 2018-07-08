@@ -1,3 +1,5 @@
+@import url(header.css);
+
 html {
     display: flex;
     justify-content: center;
@@ -5,17 +7,17 @@ html {
     height: 100%;
     background-image: url(../Imagens/bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; /*p. cobrir toda a tela*/
+}
+
+h1, h2, h3, ul {
+    margin: 0; padding: 0;
 }
 
 .checkout {
     width: 686px;
     height: 556px;
     background-color: #fff;
-}
-
-.checkout header {
-    height: 40px;
 }
 
 .checkout main {
