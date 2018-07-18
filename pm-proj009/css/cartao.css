@@ -91,7 +91,7 @@
     color: #adafb0;
 }
 
-.cartao .newCard label input {
+.cartao .newCard label input {/*input into label p. manipuplar o checkbox*/
     width: 20px;
     height: 15px;
 }
