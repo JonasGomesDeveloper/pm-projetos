@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(cartao.css);
 
 html {
     display: flex;
@@ -8,6 +9,8 @@ html {
     background-image: url(../Imagens/bg.png);
     background-repeat: no-repeat;
     background-size: cover; /*p. cobrir toda a tela*/
+    font-family: 'muliregular';
+    font-size: 12px;
 }
 
 h1, h2, h3, ul {
@@ -22,11 +25,6 @@ h1, h2, h3, ul {
 
 .checkout main {
     display: flex;
-}
-
-.checkout main .cartao {
-    height: 100px;
-    width: 55%;
 }
 
 .checkout main .resumos {
