@@ -1,0 +1,53 @@
+.resumos {
+    width: 45%;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-left: 1px solid #deddde;
+}
+
+.resumos .produtos li {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #deddde;
+    padding: 15px;
+}
+
+.resumos .produtos li:last-child {/*pseudo-seletor p remover a borda do ultimo elemento da li*/
+    border: none;   
+}
+
+.resumos .produtos .detalhes {
+    width: 180px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resumos .produtos li .detalhes h3 {
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+    margin-bottom: 4px;
+    line-height: 13px;
+}
+
+.resumos .produtos li .detalhes small {
+    color: #4a4a4a;
+    font-family: 'muliextralight_italic';
+    font-size: 10px;
+    margin-bottom: 4px;
+    width: 175px;
+    height: 13px;
+}
+
+.resumos .produtos li .detalhes span {
+    color: #4a4a4a;
+    font-size: 10px;
+    font-family: 'muliextrabold';
+}
+
+.resumos .produtos li .preco {
+    color: #9c9c9c;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+}
