@@ -7,7 +7,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-image: url(../Imagens/bg.png);
+    background-image: url(../Imagens/background.png);
     background-repeat: no-repeat;
     background-size: cover; /*p. cobrir toda a tela*/
     font-family: 'muliregular';
