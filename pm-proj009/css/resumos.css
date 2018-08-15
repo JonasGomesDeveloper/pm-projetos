@@ -51,3 +51,28 @@
     font-size: 12px;
     font-family: 'muliextrabold';
 }
+
+.resumos table {
+    border-spacing: 0;/*zera o espaço da table*/
+    width: 100%;
+    border-top: 1px solid #d5d3d6;
+    color: #777879; 
+    font-size: 12px;
+    margin-top: 83px;/*cobrir todo espaço*/
+}
+
+.resumos table th {
+    text-align: left;
+}
+
+.resumos table td {
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.resumos table tfoot * {/*todos elementos dentro do tfoot*/
+    border-top: 1px solid #d5d3d6;
+    font-family: 'muliextrabold';
+    padding-top: 7px;
+}
